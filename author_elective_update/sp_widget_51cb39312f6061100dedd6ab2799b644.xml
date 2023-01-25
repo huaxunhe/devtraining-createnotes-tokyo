@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>notes_body2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Notes Body2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-23 04:06:54</sys_created_on>
+        <sys_id>51cb39312f6061100dedd6ab2799b644</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes Body2</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sp_widget_51cb39312f6061100dedd6ab2799b644</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-23 04:06:54</sys_updated_on>
+        <template><![CDATA[<div><!-- your widget template --></div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</application>
+        <file_path/>
+        <instance_id>97798f36db41bf080ae3ac44d49619ea</instance_id>
+        <instance_name>dev84441</instance_name>
+        <name>sp_widget_51cb39312f6061100dedd6ab2799b644</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;notes_body2&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Notes Body2&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-23 04:06:54&lt;/sys_created_on&gt;&lt;sys_id&gt;51cb39312f6061100dedd6ab2799b644&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Notes Body2&lt;/sys_name&gt;&lt;sys_package display_value="CreateNotes" source="x_snc_createnotes"&gt;df5fd9a5090232007f44e1046c8ff69f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreateNotes"&gt;df5fd9a5090232007f44e1046c8ff69f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_51cb39312f6061100dedd6ab2799b644&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-23 04:06:54&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;&lt;!-- your widget template --&gt;&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1558177369</payload_hash>
+        <record_name>Notes Body2</record_name>
+        <reverted_from/>
+        <source>3b5a1d692fa021100dedd6ab2799b6e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-23 04:06:54</sys_created_on>
+        <sys_id>ddcbf9fd2fa061100dedd6ab2799b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185dccebc760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-23 04:06:54</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>19cbf9fd5ca06110878bd5112d5c5f91</update_guid>
+        <update_guid_history>19cbf9fd5ca06110878bd5112d5c5f91:1558177369</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Notes Body2">1e1725662f2ce1100dedd6ab2799b605</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-25 10:32:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>0f947935b58d43b6a12a7ab5905f4384</sys_id>
+        <sys_metadata>51cb39312f6061100dedd6ab2799b644</sys_metadata>
+        <sys_name>Notes Body2</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_scope_delete display_value="">64daa03572704d49a928bf08a985d6f9</sys_scope_delete>
+        <sys_update_name>sp_widget_51cb39312f6061100dedd6ab2799b644</sys_update_name>
+        <sys_update_version display_value="sp_widget_51cb39312f6061100dedd6ab2799b644">ddcbf9fd2fa061100dedd6ab2799b691</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
